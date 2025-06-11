@@ -1,0 +1,45 @@
+ body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(phot.webp);
+      background-size: cover;
+      background-color:bisque;
+     
+    }
+
+    .profile-card {
+      background-image: url(img.jpg);
+      background-size: cover;
+      background-color:rgb(185, 245, 241);
+      border: 2px solid #333; /* Border added */
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      text-align: center;
+      width: 560px;
+    }
+
+    .profile-card img {
+      width: 260px;
+      height: 260px;
+      border-radius: 30%;
+      border: 3px solid #333; /* Border around image */
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .profile-card h2 {
+      margin: 0;
+      border: #000 solid 2px; /* Border around name */
+      font-size: 24px;
+      color: black;
+    }
+
+    .profile-card p {
+      font-size: 16px;
+      color:rgb(21, 17, 17);
+      margin: 10px 0 20px;
+    }
